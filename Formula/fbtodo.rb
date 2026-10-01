@@ -21,6 +21,11 @@ class Fbtodo < Formula
 
   depends_on "python@3.13"
 
+  livecheck do
+    url "https://pypi.org/pypi/fbtodo/json"
+    strategy :pypi
+  end
+
   def install
     venv = virtualenv_create(libexec, "python3")
     venv.pip_install_and_link buildpath
