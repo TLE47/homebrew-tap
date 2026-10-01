@@ -14,8 +14,8 @@ class Fbtodo < Formula
 
   desc "Live todo pane beside your coding agent"
   homepage "https://github.com/TLE47/fbtodo"
-  url "https://files.pythonhosted.org/packages/90/8d/78b8856bfdf2885885ee462838ce4e02bc84b196bc65cd9633b52a19cab8/fbtodo-4.30.1.tar.gz"
-  sha256 "50d5235c14587df506f0ed1b5010140573fe161f452a1cde1f49137c0a9eff13"
+  url "https://files.pythonhosted.org/packages/a0/fe/d33a71fbad97890382ee239e0bb59d9da8d38bf778fb0d65216a824f9e95/fbtodo-4.30.2.tar.gz"
+  sha256 "ed4b226db05786285e4741b7b3744d3476c08073695255a80f24e2d3e646c7ce"
   license "MIT"
   head "https://github.com/TLE47/fbtodo.git", branch: "main"
 
